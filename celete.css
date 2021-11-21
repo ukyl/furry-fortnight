@@ -1,0 +1,50 @@
+:root{
+    --black: #001219;
+    --blue: #005f73;
+    --aqua: #0A9396;
+    --greenblue: #94d2bd;
+    --peach: #e9d8a6;
+    --orange: #ee9b00;
+    --darkorange: #ca6702;
+    --pumpkin: #bb3e03;
+    --red: #ae2012;
+    --darkred: #9b2226;
+}
+body{
+    margin: 0px;
+}
+#level{
+    position: relative;
+    height: 600px;
+    width: 80%;
+}
+#game_ground0{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(163, 35, 35);
+    width: 100%;
+    height: 100px;
+}
+#game_ground1{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    height: 380px;
+    width: 100px;
+    background-color: rgb(99, 8, 8);
+}
+#game_ground2{
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(99, 8, 8);
+}
+#madeline{
+    position: absolute;
+    height: 64px;
+    width: 48px;
+    background-color: rgb(90, 204, 185);
+    top: 200px;
+}
